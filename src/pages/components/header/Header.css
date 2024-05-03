@@ -1,0 +1,8 @@
+.header{
+    background-color: #a25ca4;
+    border: 1px dolid #00f;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
