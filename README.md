@@ -1,6 +1,6 @@
 # Webapp WinToken
 
-## Integrantes da Equipe
+## Members of the team
 - Jonathan Teodoro
 - Lucas Nepomuceno
 - Thiago Gomes
@@ -8,46 +8,55 @@
 - Vinicius Testa
 
 
-## 📝 Introdução e adequação do Projeto
+## 📝 Introduction and Competition Requirements
 
-&nbsp;&nbsp;&nbsp;&nbsp; Este projeto foi desenvolvido para o Hackathon da <a href="https://www.lumx.io/pt/lumx-hack"> Lumx Hack Powered by Ethereum.Rio </a> nas categorias:
+&nbsp;&nbsp;&nbsp;&nbsp; This project was created for the Hackathon <a href="https://www.lumx.io/pt/lumx-hack"> Lumx Hack Powered by Ethereum.Rio </a> under the categories:
 - Desafio Lumx Hack
 - Desafio Chiliz: Trilha Projeto de SportFi
 
-O Desafio Lumx Hack possuía os seguintes requisitos:
+The "Desafio Lumx Hack" had the following requirements:
 
 <div align="center">
-<sub>Quadro 1 - Requisitos Desafio Lumx Hack</sub>
+<sub>Table 1 - Requirements Desafio Lumx Hack</sub>
 
-# | Requisito 
+\# | Requirements
 --- | ---
-1 | Utilizar o Lumx Protocol
-2 | Se adequar à, pelo menos, um dos seguintes temas: fidelização, engajamento de clientes, finanças, seguros, jogos e esportes
-3 | Usar o Blockchain como base da solução
+1 | Use Lumx Protocol
+2 | Align with, at least, one of the following themes: customer loyalty, client engagement, finances, insurance, games, and sports.
+3 | Use Blockchain as the foundation of the solution
 
-<sup> Adaptado de Lumx Hack (2024) </sup>
+<sup> Adapted from Lumx Hack (2024) </sup>
 </div>
 
-Já o Desafio Chiliz possuía os seguintes requisitos:
+On the other hand Desafio Chiliz possuía os seguintes requisitos:
 
 <div align="center">
-<sub>Quadro 2 - Requisitos Desafio Chiliz</sub>
+<sub>Table 2 - Requirements Desafio Chiliz</sub>
 
-# | Requisito 
+\# | Requirements 
 --- | ---
-1 | Se adequar à, pelo menos, um dos seguintes temas: Plataformas de DEX, empréstimos, SocialFi, apostas gamificadas/pool, plataforma de apostas sem perda, projeto de infraestrutura de SportFi
-2 | Preferencialmente utilizar Fan Tokens
+1 | Align with, at least, one of the following themes: DEX platforms, loans, SocialFi, gamified betting/pool, no-loss betting platform, SportFi infrastructure project.
+2 | Preferably use Fan Tokens
 
-<sup> Adaptado de Lumx Hack (2024) </sup>
+<sup> Adapted from Lumx Hack (2024) </sup>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp; Todos esses requisitos foram contabilizados durante o desenvolvimento e, portanto, estão presentes no MVP do WebApp.
+&nbsp;&nbsp;&nbsp;&nbsp; All these requirements have been accounted for during development and therefore are present in the WebApp's MVP.
 
-⚙️ Tecnologias utilizadas: React, Lumx Protocol, Solidity, IPFS, HardHat
+⚙️ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
-## 📝 Descrição da Solução
+## 📝 What is WinToken?
 
+&nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a betting web app integrated with Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; For such purpose, WinToken shall be present in live streamings of NBA games featuring famous teams such as the Los Angeles Lakers and the Boston Celtics. It is expected that in its first appeareances, the fans may be puzzled with the sudden pop-up: "Reedem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow. That is when our user journey begins. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Our app is about costumer loyalty and taking sports to costumers' home. It is not enough betting and seeing the result of your bet afterwards when the game is over. We want people to bet and constantly interact with the game. For those people who are engaged stadium-goers, we give the opportunity to thrilled and pennyless watch their teams and bet on it. On the other hands, for those people who don't watch any games at all, but like to bet, we give a reason to engage in their favorite sport. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; In order to perform such tasks, WinToken's user shall have the following journey:
+- Reedem x tokens by scanning a QR Code that randomly pops up on Twitch sports' transmissions
+- Exchange tokens for exciting bets:
+> how many points will Lebron make today? Enter a number: _____"
+- If right, earn an exclusive NFT. 
 
+&nbsp;&nbsp;&nbsp;&nbsp; Therefore, it can be seen that our app adds a completely new dimension for betting prizes today. It revolutizes the market for betting by giving sports fans the chance to enter the NFT market. Our value proposal to overcome the competition is explore a new market: NFTbets. This is what WinToken is about. 
 
 ## 📝 Link de demonstração
 
@@ -55,7 +64,7 @@ _Coloque aqui o link para seu projeto publicado e link para vídeo de demonstra�
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+Among the files and folders present in the root of the project, the following are defined:
 
 - <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
 
