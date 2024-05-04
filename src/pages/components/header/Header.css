@@ -8,18 +8,22 @@
 }
 
 .title {
+    font-weight: bold;
     font-size: 35px;
+    color: #fff;
 }
 
 .win {
     font-weight: bolder;
     color: #a25ca4;
 }
+
 .hudContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
+    width: 80px;
 }
 
 .bellIcon {
@@ -27,8 +31,8 @@
 }
 
 .hasNotification {
-    top: 22px;
-    left: 16px;
+    bottom: 19px;
+    left: 15px;
     width: 14px;
     height: 14px;
     border-radius: 50%;
