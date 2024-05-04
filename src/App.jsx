@@ -17,7 +17,6 @@ function App() {
           <Route path="/loja" element={<Shop />} />
           <Route path="/apostas" element={<Bets />} />
           <Route path="/perfil" element={<ViewProfile />} />
-          <Route path="/historico" element={<Historic />} />
         </Routes>
       </BrowserRouter>
     </div>
