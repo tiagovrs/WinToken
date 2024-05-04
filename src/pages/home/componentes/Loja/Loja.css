@@ -1,0 +1,44 @@
+.containerLoja {
+    background-color: #181818;
+    display: flex;
+    max-width: 360px;
+    flex-direction: column;
+    align-items: end;
+    color: #fff;
+    justify-content: center;
+    padding: 80px 60px;
+  }
+  .Loja {
+    border-radius: 10px;
+    background-color: #a25ca4;
+    display: flex;
+    margin-top: 81px;
+    width: 144px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 14px 14px 47px;
+  }
+  .tituloLoja {
+    font: 500 14px Roboto, sans-serif;
+  }
+  .img {
+    aspect-ratio: 1.09;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    border-color: rgba(91, 65, 91, 1);
+    border-style: solid;
+    border-width: 5px;
+    align-self: center;
+    margin-top: 11px;
+  }
+  .nomeProduto {
+    align-self: center;
+    margin-top: 7px;
+    font: all-small-caps 400 12px Roboto, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .valorProduto{
+    margin-top: 8px;
+    font: 800 17px Roboto, sans-serif;
+  }
