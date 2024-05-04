@@ -1,7 +1,7 @@
-export default function editProfile() {
+export default function ViewProfile() {
     return (
       <div>
-        <h1>editProfile</h1>
+        <h1>ViewProfile</h1>
       </div>
     );
   }
