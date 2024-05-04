@@ -131,27 +131,22 @@ Among the files and folders present in the root of the project, the following ar
 
 ## 💻 Configuração para desenvolvimento e execução do código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, bibliotecas, serviços etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o código e executar a aplicação a partir de sua máquina local.*
+&nbsp;&nbsp;&nbsp;&nbsp; Here are all the necessary instructions for installing all the programs, libraries, and essential tools for setting up the development environment.
 
-*exemplo de instruções*
-
-Aqui encontram-se todas as instruções necessárias para a instalação de todos os programas, bibliotecas e ferramentas imprescindíveis para a configuração do ambiente de desenvolvimento.
-
-1. Baixar e instalar o node.js: [https://nodejs.org/pt-br/](https://nodejs.org/pt-br/) (versão 16.15.1 LTS)
-2. Clone o repositório em questão.
-3. No modo administrador, abra o "prompt de comando" ou o "terminal" e, após, abra a pasta "src/backend" no diretório raiz do repositório clonado e digite o segundo comando:
-
+1. Download and install Node.js: https://nodejs.org/en/ (version 20.12.2 LTS)
+2. Clone the repository in question.
+3. In administrator mode, open the "command prompt" or "terminal" and then navigate to the "src/backend" folder in the root directory of the cloned repository and type the second command:
 ```sh
 npm install
 ```
 
-Isso instalará todas as dependências definidas no arquivo <b>package.json</b> que são necessárias para rodar o projeto. Agora o projeto já está pronto para ser modificado. Caso ainda deseje iniciar a aplicação, digite o comando abaixo no terminal:
+This will install all the dependencies defined in the <b>package.json</b> file that are necessary to run the project. Now the project is ready to be modified. If you still wish to start the application, type the command below in the terminal:
 
 ```sh
-npm start
+npm run dev
 ```
-5. Agora você pode acessar a aplicação através do link http://localhost:1234/
-6. O servidor está online.
+5. Now you can access the application through the link:  http://localhost:5173/
+6. The server is online.
 
 ## References
 
