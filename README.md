@@ -58,6 +58,24 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; Therefore, it can be seen that our app adds a completely new dimension for betting prizes today. It revolutizes the market for betting by giving sports fans the chance to enter the NFT market. Our value proposal to overcome the competition is explore a new market: NFTbets. This is what WinToken is about. 
 
+## Market Analysis
+
+### Value Proposition Canva
+&nbsp;&nbsp;&nbsp;&nbsp; The Value Proposition Canva (VPC) is a visual tool that describe and analyse the value a solution give to the user. It aims to understand the way a solution relives the pain of the final client, while creating gains and making their job to finish a task easier. This tool is pivotal to the development of any solution, particularly into the software development, as it helps the designers and developers to create a user-focused application.
+
+<div align='center'>
+
+<sup>Figure X - Value Proposition Canva</sup>
+
+<img alt='Value Proposition Canva' src='assets\VPC.png'>
+
+<sub>Copyright Material(2024)</sub>
+
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp; With the image above, it is clear that our solution focus on solving the "boring streaming" problem, making it more engageful to the viewer to watch a four hours match. Offering a NFT and non-monetary-bidding as the principal products. The aim of WinToken is to engage the user with the idea of obtaining a prize, such as a NFT, just for watching a basketball, soccer or any sport streaming and bidding with digital coins without cost.  
+
+
 ## 📝 Link de demonstração
 
 _Coloque aqui o link para seu projeto publicado e link para vídeo de demonstração_
