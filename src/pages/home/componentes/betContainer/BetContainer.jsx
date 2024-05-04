@@ -1,6 +1,6 @@
 
-import './ApostaLoja.css'
-function ApostaLoja() {
+import './BetContainer.css'
+function BetContainer() {
   return (
       <div className="containerAposta">
         <div className="Aposta2">
@@ -18,5 +18,5 @@ function ApostaLoja() {
       </div>
   );
 }
-export default ApostaLoja
+export default BetContainer
 

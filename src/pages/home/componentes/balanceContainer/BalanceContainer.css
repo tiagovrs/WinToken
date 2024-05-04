@@ -1,4 +1,4 @@
-.containerSaldo {
+.balanceContainer {
     background-color: #181818;
     display: flex;
     max-width: 360px;
@@ -8,7 +8,7 @@
     justify-content: center;
     padding: 80px 27px;
   }
-  .Saldo {
+  .balance {
     border-radius: 10px;
     background-color: #a25ca4;
     display: flex;
@@ -16,11 +16,11 @@
     gap: 20px;
     padding: 13px 17px;
   }
-  .tituloSaldo {
+  .balanceTitle {
     margin: auto 0;
     font: 500 14px Roboto, sans-serif;
   }
-  .valorSaldo {
+  .balanceValue {
     flex-grow: 1;
     flex-basis: auto;
     font: 700 24px Roboto Flex, -apple-system, Roboto, Helvetica,

@@ -1,6 +1,6 @@
-import './Loja.css'
+import './ShopContainer.css'
 
-function Loja() {
+function ShopContainer() {
   return (
       <div className="containerLoja">
         <div className="Loja">
@@ -16,6 +16,6 @@ function Loja() {
       </div>
   );
 }
-export default Loja
+export default ShopContainer
 
 
