@@ -1,6 +1,6 @@
 # Webapp WinToken
 
-## Members of the team
+## Team Members
 - Jonathan Teodoro
 - Lucas Nepomuceno
 - Thiago Gomes
@@ -8,44 +8,44 @@
 - Vinicius Testa
 
 
-## 📋 Introduction and Competition Requirements
+## Table of Contents
+
+[1. Introduction and Competition Requirements](#c1)
+
+[2. Product](#c2)
+
+[3. Market Analysis](#c3)
+
+[4. Technical Description](#c4)
+
+[5. Conclusion and Future Plans](#c5)
+
+[6. Repository](#c6)
+
+[7. References](#c7)
+
+##  <a name="c1"></a>📋 1. Introduction and Competition Requirements
 
 &nbsp;&nbsp;&nbsp;&nbsp; This project was created for the Hackathon <a href="https://www.lumx.io/pt/lumx-hack"> Lumx Hack Powered by Ethereum.Rio </a> under the categories:
 - Desafio Lumx Hack
 - Desafio Chiliz: Trilha Projeto de SportFi
 
 &nbsp;&nbsp;&nbsp;&nbsp; The "Desafio Lumx Hack" had the following requirements:
-
-<div align="center">
-<sub>Table 1 - Requirements Desafio Lumx Hack</sub>
-
-\# | Requirements
---- | ---
-1 | Use Lumx Protocol
-2 | Align with, at least, one of the following themes: customer loyalty, client engagement, finances, insurance, games, and sports.
-3 | Use Blockchain as the foundation of the solution
-
-<sup> Adapted from Lumx Hack (2024) </sup>
-</div>
+1. Use Lumx Protocol;
+2. Align with, at least, one of the following themes: customer loyalty, client engagement, finances, insurance, games, and sports;
+3. Use Blockchain as the foundation of the solution.
 
 &nbsp;&nbsp;&nbsp;&nbsp;On the other hand Desafio Chiliz possuía os seguintes requisitos:
 
-<div align="center">
-<sub>Table 2 - Requirements Desafio Chiliz</sub>
+1. Align with, at least, one of the following themes: DEX platforms, loans, SocialFi, gamified betting/pool, no-loss betting platform, SportFi infrastructure project;
+2. Preferably use Fan Tokens.
 
-\# | Requirements 
---- | ---
-1 | Align with, at least, one of the following themes: DEX platforms, loans, SocialFi, gamified betting/pool, no-loss betting platform, SportFi infrastructure project.
-2 | Preferably use Fan Tokens
+&nbsp;&nbsp;&nbsp;&nbsp; All these requirements have been accounted for during development and therefore are present in the webapp's MVP.
 
-<sup> Adapted from Lumx Hack (2024) </sup>
-</div>
 
-&nbsp;&nbsp;&nbsp;&nbsp; All these requirements have been accounted for during development and therefore are present in the WebApp's MVP.
+##  <a name="c2"></a>🔑 2. Product
 
-⚙️ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
-
-## 🏀 What is WinToken?
+###  2.1 What is WinToken?
 
 &nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a betting web app integrated with Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; For such purpose, WinToken shall be present in live streamings of NBA games featuring famous teams such as the Los Angeles Lakers and the Boston Celtics. It is expected that in its first appeareances, the fans may be puzzled with the sudden pop-up: "Redeem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow. That is when our user journey begins. <br>
@@ -59,7 +59,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; Therefore, it can be seen that our app adds a completely new dimension for betting prizes today. It revolutizes the market for betting by giving sports fans the chance to enter the NFT market. Our value proposal to overcome the competition is explore a new market: NFTbets. This is what WinToken is about. 
 
-## 🎯 Why WinToken?
+###  2.2 Why WinToken?
 
 &nbsp;&nbsp;&nbsp;&nbsp; WinToken starts its journey in streaming services. This is justified by the recent surge of sports online streaming services. Currently, TV audiences for sports are falling and shares from companies such as Warner Bros - one of NBA's broadcast partners - face all time lows (BLOOMBERG NEWS; GLUM, 2024). Meanwhile, ESPN and Disney are launching a joint for a sports streaming service, which is expected to promote NBA with more accessibility (DEITSCH et al., 2024). Hence, it is clear that products that use streamings as their main propaganda platform are taking great advantage of current opportunities <br>
 &nbsp;&nbsp;&nbsp;&nbsp; With respect to the other end - the prizes in NFT -, it concerns innovation. Fans of yesterday used player cards to showcase their enthusiasm for an specific sport. Fans of today use NFTs and the benefits of blockchain to engage with their favorites teams. It's nearly impossible to steal an NFT, ensuring players feel secure with the game. Furthermore, blockchain makes the app transparent and readily trustable, which is a great benefit when it comes to betting apps. <br>
@@ -74,11 +74,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp; It is the mix of betting, streaming, and blockchain that makes our app unique and innovative. However, we understand that the best software can only be developed when it is user-centered and the result of a thorough market analysis. Hence, this section is followed by our market analysis
 
 
+##  <a name="c3"></a>🌐 3. Market Analysis
 
-
-## 🌐 Market Analysis
-
-## Persona & User Stories
+## 3.2 Persona & User Stories
 &nbsp;&nbsp;&nbsp;&nbsp; Personas and User stories are essential pieces of the development of a MVP. Both have direct impact into how the solution will be built, working as a tool to guide the developers and the designers into the user-focused development.
 
 &nbsp;&nbsp;&nbsp;&nbsp; Personas, specifically, have the power to create empathy into the development team, as they have a user to focus and to attend.
@@ -97,7 +95,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; With Joshua, the team of development was capable to measure how their features, such as the QR Code scanning section, were affecting his experience inside the app. With his stories, they were able to focus in creating features, such as the highlights, that were useful and meaningful to the application.
 
-### Value Proposition Canva
+### 3.3 Value Proposition Canva
+
 &nbsp;&nbsp;&nbsp;&nbsp; The Value Proposition Canva (VPC) is a visual tool that describe and analyse the value a solution give to the user. It aims to understand the way a solution relives the pain of the final client, while creating gains and making their job to finish a task easier. This tool is pivotal to the development of any solution, particularly into the software development, as it helps the designers and developers to create a user-focused application.
 
 <div align='center'>
@@ -113,11 +112,21 @@
 &nbsp;&nbsp;&nbsp;&nbsp; With the image above, it is clear that our solution focus on solving the "boring streaming" problem, making it more engageful to the viewer to watch a four hours match. Offering a NFT and non-monetary-bidding as the principal products. The aim of WinToken is to engage the user with the idea of obtaining a prize, such as a NFT, just for watching a basketball, soccer or any sport streaming and bidding with digital coins without cost.  
 
 
-## 📝 Link de demonstração
+##  <a name="c4"></a>⚙️ 4. Technical Description
+
+ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
+
+##  <a name="c5"></a>🎯 5. Conclusion and Future Plans
+
+
+##  <a name="c6"></a>💾  6. Repository
+
+
+### 6.1 📝 Link de demonstração
 
 _Coloque aqui o link para seu projeto publicado e link para vídeo de demonstração_
 
-## 📁 Estrutura de pastas
+### 6.2 📁 Estrutura de pastas
 
 Among the files and folders present in the root of the project, the following are defined:
 
@@ -129,7 +138,7 @@ Among the files and folders present in the root of the project, the following ar
 
 - <b>README.md</b>: arquivo que serve como guia introdutório e explicação geral sobre o projeto e a aplicação (o mesmo arquivo que você está lendo agora).
 
-## 💻 Configuração para desenvolvimento e execução do código
+### 6.3 💻 Configuração para desenvolvimento e execução do código
 
 *Acrescentar as informações necessárias sobre pré-requisitos (IDEs, bibliotecas, serviços etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o código e executar a aplicação a partir de sua máquina local.*
 
@@ -153,6 +162,6 @@ npm start
 5. Agora você pode acessar a aplicação através do link http://localhost:1234/
 6. O servidor está online.
 
-## References
+##  <a name="c7"></a>💻  7. References
 
 BLOOMBERG NEWS; GLUM, R. Warner Bros. Shares Fall 10% on Report That Comcast Seeks NBA TV Deal - BNN Bloomberg. Disponível em: <https://www.bnnbloomberg.ca/warner-bros-shares-fall-10-on-report-that-comcast-seeks-nba-tv-deal-1.2067124>. Acesso em: 4 maio. 2024.  
