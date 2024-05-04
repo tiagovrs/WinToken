@@ -1,20 +1,20 @@
 .balanceContainer {
     background-color: #181818;
     display: flex;
-    max-width: 360px;
+    width: 300px;
     flex-direction: column;
     color: #fff;
     text-align: center;
     justify-content: center;
-    padding: 80px 27px;
+
   }
   .balance {
     border-radius: 10px;
     background-color: #a25ca4;
     display: flex;
-    margin-top: 23px;
     gap: 20px;
-    padding: 13px 17px;
+    padding: 13px 30px;
+    padding-right: 33px ;
   }
   .balanceTitle {
     margin: auto 0;

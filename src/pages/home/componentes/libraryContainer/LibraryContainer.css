@@ -1,10 +1,12 @@
 .containerLibrary {
   border-radius: 10px;
   background-color: #a25ca4;
-  max-width: 308px;
+  width: 300px;
+  display: flex;
   align-items: center;
   color: #fff;
   justify-content: center;
   padding: 35px 60px;
   font: 600 17px Roboto, sans-serif;
+  height: 70px;
 }

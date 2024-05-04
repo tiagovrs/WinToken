@@ -1,19 +1,14 @@
+/* eslint-disable react/prop-types */
 import './ShopContainer.css'
 
-function ShopContainer() {
+function ShopContainer(props){
   return (
-      <div className="containerLoja">
         <div className="Loja">
-          <div className="tituloLoja">Troque tokens por itens REAIS.</div>
-          <img
-            loading="lazy"
-            srcSet="..."
-            className="img"
-          />
-          <div className="nomeProduto">Camisa Oficial</div>
-          <div className="valorProduto">6000 TOKENS</div>
+          <h2>{props.children}</h2>
+          <img src={props.path}></img>
+          <label>{props.label}</label>
+          <p>{props.p}</p>
         </div>
-      </div>
   );
 }
 export default ShopContainer

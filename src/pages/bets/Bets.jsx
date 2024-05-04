@@ -1,7 +1,14 @@
+import BottomNav from "../components/bottomNav/BottomNav";
+import Header from "../components/header/Header";
+import BetPageContainer from "./components/BetPageContainer";
+
 export default function Apostas() {
     return (
-      <div>
-        <h1>Apostas</h1>
-      </div>
+      <body>
+        <Header />
+        <BetPageContainer>
+        </BetPageContainer>
+        <BottomNav></BottomNav>
+      </body>
     );
   }
