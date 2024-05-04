@@ -135,7 +135,9 @@
  Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
 ##  <a name="c5"></a>🎯 5. Conclusion and Future Plans
+&nbsp;&nbsp;&nbsp;&nbsp; The use of WinToken in streaming services will represent a change into the entertainment industry. When taking advantage of the blockchain technology, the application brings a new way of interaction between the live streaming and the final client. when offering positive changes into the market, such as the increase in the rate of new users that turn into loyal clients, and improves the experience of the user with more dinamicity and prizes, the WinToken comes up as a change maker, ready to revolutionize the entertainemnt industry. <br>
 
+&nbsp;&nbsp;&nbsp;&nbsp; Looking to the future, the main focus of the WinToken administration team is to create partnership with Chiliz and sports clubs. As a first step to enter the entertainment market, the WinToken Company aims to start operating into under represented categories, such as amateur competitions.  
 
 ##  <a name="c6"></a>💾  6. Repository
 
