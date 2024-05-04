@@ -61,18 +61,18 @@
 ## Market Analysis
 
 ### 3.1 SWOT Analysis
-&nbsp;&nbsp;&nbsp;&nbsp; The SWOT (Strengths, Weaknesses, Opportunities, and Threats) Analysis is a tool to holistic analyze a project. Now a SWOT analysis of the WinToken application into the entertainment market in USA.
+&nbsp;&nbsp;&nbsp;&nbsp; The SWOT (Strengths, Weaknesses, Opportunities, and Threats) Analysis is a tool that can be used to holistically analyze a project. Now a SWOT analysis of the WinToken application into the entertainment market in USA.
 
 ### Strengths:
 1. <b>Blockchain for security</b> and transparency, leading with the fear of betting into a non-secure platform.
-2. <b>NFT for entertainment</b> as it is already used by the Chilliz, but more accessible and engageful.
+2. <b>NFT for entertainment</b> as it is already used by the Chilliz, adding more accessibility and engagefulness.
 
 ### Weaknesses:
 1. <b>High dependecy of famous sport leagues</b> to promote the NFTs.
 
 ### Opportunities:
 1. <b>Fast increasing market: </b>as the sportive bet is an opportunity to receive investment and notoriety to the solution.
-2. <b>Volatile solution: </b>such as the WinToken that can adapt itself to different types of sports competitions and streamings.
+2. <b>Volatile solution: </b>such as the WinToken that can adapt itself to different types of sports, bets and streamings.
 
 ### Threats:
 1. <b>Gambling stigma</b> that is common to the public, such as gambling being a sin.
