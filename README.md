@@ -8,7 +8,7 @@
 - Vinicius Testa
 
 
-## 📝 Introduction and Competition Requirements
+## 📋 Introduction and Competition Requirements
 
 &nbsp;&nbsp;&nbsp;&nbsp; This project was created for the Hackathon <a href="https://www.lumx.io/pt/lumx-hack"> Lumx Hack Powered by Ethereum.Rio </a> under the categories:
 - Desafio Lumx Hack
@@ -45,20 +45,38 @@
 
 ⚙️ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
-## 📋 What is WinToken?
+## 🏀 What is WinToken?
 
 &nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a betting web app integrated with Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; For such purpose, WinToken shall be present in live streamings of NBA games featuring famous teams such as the Los Angeles Lakers and the Boston Celtics. It is expected that in its first appeareances, the fans may be puzzled with the sudden pop-up: "Reedem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow. That is when our user journey begins. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; For such purpose, WinToken shall be present in live streamings of NBA games featuring famous teams such as the Los Angeles Lakers and the Boston Celtics. It is expected that in its first appeareances, the fans may be puzzled with the sudden pop-up: "Redeem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow. That is when our user journey begins. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Our app is about costumer loyalty and taking sports to costumers' home. It is not enough betting and seeing the result of your bet afterwards when the game is over. We want people to bet and constantly interact with the game. For those people who are engaged stadium-goers, we give the opportunity to thrilled and pennyless watch their teams and bet on it. On the other hands, for those people who don't watch any games at all, but like to bet, we give a reason to engage in their favorite sport. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; In order to perform such tasks, WinToken's user shall have the following journey:
 - Reedem x tokens by scanning a QR Code that randomly pops up on Twitch sports' transmissions
 - Exchange tokens for exciting bets:
-> how many points will Lebron make today? Enter a number: _____"
+> "How many points will Lebron make today? 
+> Enter a number: _____"
 - If right, earn an exclusive NFT. 
 
 &nbsp;&nbsp;&nbsp;&nbsp; Therefore, it can be seen that our app adds a completely new dimension for betting prizes today. It revolutizes the market for betting by giving sports fans the chance to enter the NFT market. Our value proposal to overcome the competition is explore a new market: NFTbets. This is what WinToken is about. 
 
-## Market Analysis
+## 🎯 Why WinToken?
+
+&nbsp;&nbsp;&nbsp;&nbsp; WinToken starts its journey in streaming services. This is justified by the recent surge of sports online streaming services. Currently, TV audiences for sports are falling and shares from companies such as Warner Bros - one of NBA's broadcast partners - face all time lows (BLOOMBERG NEWS; GLUM, 2024). Meanwhile, ESPN and Disney are launching a joint for a sports streaming service, which is expected to promote NBA with more accessibility (DEITSCH et al., 2024). Hence, it is clear that products that use streamings as their main propaganda platform are taking great advantage of current opportunities <br>
+&nbsp;&nbsp;&nbsp;&nbsp; With respect to the other end - the prizes in NFT -, it concerns innovation. Fans of yesterday used player cards to showcase their enthusiasm for an specific sport. Fans of today use NFTs and the benefits of blockchain to engage with their favorites teams. It's nearly impossible to steal an NFT, ensuring players feel secure with the game. Furthermore, blockchain makes the app transparent and readily trustable, which is a great benefit when it comes to betting apps. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Additionally, we excluded the financial aspect of collectible stickers. With WinToken, one can simply watch the game, guess correctly a stats from the game and they win an exclusive prize. The experience becomes more interconnected and it resembles an sports game rather than luck. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; With regard to the central aspect of WinToken - gamified betting -, it is justified given the context in which the webapp will be launch. It references a common practice of our user: the sports fan. Moreover, it re-creates the process by adding virtous cycle: watch a match, reedem tokens, bet, watch a match; that does not generate financial loss to our user. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; The above reasons combined generate the need for WinToken today. WinToken benefits are summarised into four bullet points:
+- Enhanced user engagement through gamified betting and NFT prizes.
+- Increased security and transparency with blockchain technology.
+- Elimination of financial risk associated with traditional sports betting.
+- Integration with streaming services provides convenient access to live sports events.
+
+&nbsp;&nbsp;&nbsp;&nbsp; It is the mix of betting, streaming, and blockchain that makes our app unique and innovative. However, we understand that the best software can only be developed when it is user-centered and the result of a thorough market analysis. Hence, this section is followed by our market analysis
+
+
+
+
+## 🌐 Market Analysis
 
 ## Persona & User Stories
 &nbsp;&nbsp;&nbsp;&nbsp; Personas and User stories are essential pieces of the development of a MVP. Both have direct impact into how the solution will be built, working as a tool to guide the developers and the designers into the user-focused development.
@@ -135,3 +153,6 @@ npm start
 5. Agora você pode acessar a aplicação através do link http://localhost:1234/
 6. O servidor está online.
 
+## References
+
+BLOOMBERG NEWS; GLUM, R. Warner Bros. Shares Fall 10% on Report That Comcast Seeks NBA TV Deal - BNN Bloomberg. Disponível em: <https://www.bnnbloomberg.ca/warner-bros-shares-fall-10-on-report-that-comcast-seeks-nba-tv-deal-1.2067124>. Acesso em: 4 maio. 2024.  
