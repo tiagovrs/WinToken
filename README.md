@@ -48,8 +48,8 @@
 ###  2.1 What is WinToken?
 
 &nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a webapp integrated with the Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications on its transactions. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Nowadays, it is much easier to convince a person into going to a stadium to see a particular sport than watch a four-hour match at their homes. The market for streaming services of sports are, therefore, saturated. Those who are fanatic fans, watch it while those who are not so involved with the team, do not. Consequently streaming services lose great demand for substitutes such as match highlight videos.
-&nbsp;&nbsp;&nbsp;&nbsp; We propose a change for this status quo. Aiming at costumer loyalty, WinToken came to capture new markets and captivate the whole public of the team. For fanatics, it is an add. For those who just follow the trendings of their teams, it is an invite. How? We propose leveraging the streaming experience by adding rewards into it. First conceived for baskteball live transmissions, WinToken shall be present on online streamings of NBA games. 
+&nbsp;&nbsp;&nbsp;&nbsp; Nowadays, it is much easier to convince a person into going to a stadium to see a particular sport than watch a four-hour match at their homes. The market for streaming services of sports are, therefore, saturated. Those who are fanatic fans, watch it while those who are not so involved with the team, do not. Consequently streaming services lose great demand for substitutes such as match highlight videos. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; We propose a change for this status quo. Aiming at costumer loyalty, WinToken came to capture new markets and captivate the whole public of the team. For fanatics, it is an add. For those who just follow the trendings of their teams, it is an invite. How? We propose leveraging the streaming experience by adding rewards into it. First conceived for baskteball live transmissions, WinToken shall be present on online streamings of NBA games. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Perhaps, on its first appeareances, the fans may be puzzled with the sudden pop-up: "Redeem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow and that is when our user journey begins.
 1. First, the user will scan our QR Code and navigate to our app interface on the web.
 2. Then, they will be able to create an account using their email;
@@ -62,17 +62,16 @@
 
 ###  2.2 Why WinToken?
 
-&nbsp;&nbsp;&nbsp;&nbsp; WinToken starts its journey in streaming services. This is justified by the recent surge of sports online streaming services. Currently, TV audiences for sports are falling and shares from companies such as Warner Bros - one of NBA's broadcast partners - face all time lows (BLOOMBERG NEWS; GLUM, 2024). Meanwhile, ESPN and Disney are launching a joint for a sports streaming service, which is expected to promote NBA with more accessibility (DEITSCH et al., 2024). Hence, it is clear that products that use streamings as their main propaganda platform are taking great advantage of current opportunities <br>
-&nbsp;&nbsp;&nbsp;&nbsp; With respect to the other end - the prizes in NFT -, it concerns innovation. Fans of yesterday used player cards to showcase their enthusiasm for an specific sport. Fans of today use NFTs and the benefits of blockchain to engage with their favorites teams. It's nearly impossible to steal an NFT, ensuring players feel secure with the game. Furthermore, blockchain makes the app transparent and readily trustable, which is a great benefit when it comes to betting apps. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Additionally, we excluded the financial aspect of collectible stickers. With WinToken, one can simply watch the game, guess correctly a stats from the game and they win an exclusive prize. The experience becomes more interconnected and it resembles an sports game rather than luck. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; With regard to the central aspect of WinToken - gamified betting -, it is justified given the context in which the webapp will be launch. It references a common practice of our user: the sports fan. Moreover, it re-creates the process by adding virtous cycle: watch a match, reedem tokens, bet, watch a match; that does not generate financial loss to our user. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; The above reasons combined generate the need for WinToken today. WinToken benefits are summarised into four bullet points:
-- Enhanced user engagement through gamified betting and NFT prizes.
-- Increased security and transparency with blockchain technology.
-- Elimination of financial risk associated with traditional sports betting.
+&nbsp;&nbsp;&nbsp;&nbsp; WinToken starts its journey in streaming services. This is justified by the recent surge of sports online streaming services. Currently, TV audiences for sports are falling and shares from companies such as Warner Bros - one of NBA's broadcast partners - face all time lows (BLOOMBERG NEWS; GLUM, 2024). Meanwhile, ESPN and Disney are launching a joint for a sports streaming service, which is expected to promote NBA with more accessibility (DEITSCH et al., 2024). Hence, it is clear that products that use streamings as their main propaganda platform are taking great advantage of current opportunities. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; With respect to the other end - the prizes in NFT -, it concerns innovation. Fans of yesterday used player cards to showcase their enthusiasm for an specific sport. Fans of today use NFTs and the benefits of blockchain to engage with their favorites teams. It's nearly impossible to steal an NFT, ensuring players feel secure with the game. Furthermore, blockchain makes the app transparent and readily trustable, which is a great benefit when it comes to reward apps, which are known for scams. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Additionally, we excluded the financial constraint of collectible cards. With WinToken, one can watch the game and readily participate of this engagement revolution. The sports experience becomes more interconnected and captivate users into the streaming services. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; The above reasons combined generate the need for WinToken today, which are summarised into four bullet points:
+- Enhanced user engagement through NFT prizes.
+- Increased security and transparency with the use of blockchain technology.
+- Elimination of financial risk associated with traditional sports gaming.
 - Integration with streaming services provides convenient access to live sports events.
 
-&nbsp;&nbsp;&nbsp;&nbsp; It is the mix of betting, streaming, and blockchain that makes our app unique and innovative. However, we understand that the best software can only be developed when it is user-centered and the result of a thorough market analysis. Hence, this section is followed by our market analysis
+&nbsp;&nbsp;&nbsp;&nbsp; It is the mix of streaming, gaming and blockchain that makes our app unique and innovative. However, we understand that the best software can only be developed when it is user-centered and the result of a thorough market analysis. Hence, this section is followed by our market analysis.
 
 ##  <a name="c3"></a>🌐 3. Market Analysis
 
@@ -132,15 +131,21 @@
 
 ##  <a name="c4"></a>⚙️ 4. Technical Description
 
- Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
+Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
+- React: this framework is a widely used technology for web development. Therefore, there were several materials to work with on the Internet, including a large number of libraries. Consequently, front end development was facilitated by the of React, which is also a technology the group is used to.
+
+- Lumx Protocol: this blockchain protocol was used to integrate the user wallets for our web app. Incorporating smart wallets offers a decentralized, seamless, and secure way to manage digital assets. It abstracts away the complexities of the blockchain for users, integrating them with a familiar user experience without requiring them to manage keys, sign transactions, or pay network fees.
+- Solidity: this programming language is used on the deployment of smart contracts. Furthermore, it is supported by the Ethereum Virtual Machine, a software used during the MVP development of WinToken.
+- IPFS: this descentralized storage software was used to store the digital content associated with our NFTs. Instead of storing the content directly on the blockchain (which can be expensive and impractical due to storage limitations), the content was stored on the IPFS network.
+- HardHat: this development environment for Ethereum was used to facilitate tests with regard to smart contract creations. It provides tools and utilities for compiling, deploying, testing, and debugging Ethereum smart contracts
+ 
 ##  <a name="c5"></a>🎯 5. Conclusion and Future Plans
 &nbsp;&nbsp;&nbsp;&nbsp; The use of WinToken in streaming services will represent a change into the entertainment industry. When taking advantage of the blockchain technology, the application brings a new way of interaction between the live streaming and the final client. when offering positive changes into the market, such as the increase in the rate of new users that turn into loyal clients, and improves the experience of the user with more dinamicity and prizes, the WinToken comes up as a change maker, ready to revolutionize the entertainemnt industry. <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp; Looking to the future, the main focus of the WinToken administration team is to create partnership with Chiliz and sports clubs. As a first step to enter the entertainment market, the WinToken Company aims to start operating into under represented categories, such as amateur competitions.  
 
 ##  <a name="c6"></a>💾  6. Repository
-
 
 ### 6.1 📝 Link de demonstração
 
@@ -180,3 +185,4 @@ npm run dev
 ##  <a name="c7"></a>💻  7. References
 
 BLOOMBERG NEWS; GLUM, R. Warner Bros. Shares Fall 10% on Report That Comcast Seeks NBA TV Deal - BNN Bloomberg. Disponível em: <https://www.bnnbloomberg.ca/warner-bros-shares-fall-10-on-report-that-comcast-seeks-nba-tv-deal-1.2067124>. Acesso em: 4 maio. 2024.  
+DEITSCH, R. et al. ESPN, FOX, Warner Bros. Discovery launching streaming service. Disponível em: <https://theathletic.com/5255840/2024/02/06/espn-fox-warner-sports-streaming-service/>. Acesso em: 4 maio. 2024. 
