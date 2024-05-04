@@ -10,48 +10,12 @@
 
 ## 📝 Introdução e adequação do Projeto
 
-&nbsp;&nbsp;&nbsp;&nbsp; Este projeto foi desenvolvido para o Hackathon da <a href="https://www.lumx.io/pt/lumx-hack"> Lumx Hack Powered by Ethereum.Rio </a> nas categorias:
-- Desafio Lumx Hack
-- Desafio Chiliz: Trilha Projeto de SportFi
-
-O Desafio Lumx Hack possuía os seguintes requisitos:
-
-<div align="center">
-<sub>Quadro 1 - Requisitos Desafio Lumx Hack</sub>
-
-# | Requisito 
---- | ---
-1 | Utilizar o Lumx Protocol
-2 | Se adequar à, pelo menos, um dos seguintes temas: fidelização, engajamento de clientes, finanças, seguros, jogos e esportes
-3 | Usar o Blockchain como base da solução
-
-<sup> Adaptado de Lumx Hack (2024) </sup>
-</div>
-
-Já o Desafio Chiliz possuía os seguintes requisitos:
-
-<div align="center">
-<sub>Quadro 2 - Requisitos Desafio Chiliz</sub>
-
-# | Requisito 
---- | ---
-1 | Se adequar à, pelo menos, um dos seguintes temas: Plataformas de DEX, empréstimos, SocialFi, apostas gamificadas/pool, plataforma de apostas sem perda, projeto de infraestrutura de SportFi
-2 | Preferencialmente utilizar Fan Tokens
-
-<sup> Adaptado de Lumx Hack (2024) </sup>
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp; Todos esses requisitos foram contabilizados durante o desenvolvimento e, portanto, estão presentes no MVP do WebApp.
-
-⚙️ Tecnologias utilizadas: React, Lumx Protocol, Solidity, IPFS, HardHat
-
 # 📝 Solution
 
 ## Market Analysis
 
 ### Value Proposition Canva
-&nbsp;&nbsp;&nbsp;&nbsp;
-The Value Proposition Canva (VPC) is a visual tool that describe and analyse the value a solution give to the user. It aims to understand the way a solution relives the pain of the final client, while creating gains and making their job to finish a task easier. This tool is pivotal to the development of any solution, particularly into the software development, as it helps the designers and developers to create a user-focused application.
+&nbsp;&nbsp;&nbsp;&nbsp; The Value Proposition Canva (VPC) is a visual tool that describe and analyse the value a solution give to the user. It aims to understand the way a solution relives the pain of the final client, while creating gains and making their job to finish a task easier. This tool is pivotal to the development of any solution, particularly into the software development, as it helps the designers and developers to create a user-focused application.
 
 <div align='center'>
 
@@ -63,8 +27,7 @@ The Value Proposition Canva (VPC) is a visual tool that describe and analyse the
 
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-With the image above, it is clear that our solution focus on solving the "boring streaming" problem, making it more engageful to the viewer to watch a four hours match. Offering a NFT and non-monetary-bidding as the principal products. The aim of WinToken is to engage the user with the idea of obtaining a prize, such as a NFT, just for watching a basketball, soccer or any sport streaming and bidding with digital coins without cost.  
+&nbsp;&nbsp;&nbsp;&nbsp; With the image above, it is clear that our solution focus on solving the "boring streaming" problem, making it more engageful to the viewer to watch a four hours match. Offering a NFT and non-monetary-bidding as the principal products. The aim of WinToken is to engage the user with the idea of obtaining a prize, such as a NFT, just for watching a basketball, soccer or any sport streaming and bidding with digital coins without cost.  
 
 
 ## 📝 Link de demonstração
