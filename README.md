@@ -77,7 +77,7 @@
 <sup> Copyright Material(2024) </sup>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp; With Joshua, the team of development was capable to measure how their features, such as the QR Code scanning section, were affecting his experience inside the app. With his stories, they were able to focus in creating features, such as the bet highlights, that were useful and meaningful to the application.
+&nbsp;&nbsp;&nbsp;&nbsp; With Joshua, the team of development was capable to measure how their features, such as the QR Code scanning section, were affecting his experience inside the app. With his stories, they were able to focus in creating features, such as the highlights, that were useful and meaningful to the application.
 
 ### Value Proposition Canva
 &nbsp;&nbsp;&nbsp;&nbsp; The Value Proposition Canva (VPC) is a visual tool that describe and analyse the value a solution give to the user. It aims to understand the way a solution relives the pain of the final client, while creating gains and making their job to finish a task easier. This tool is pivotal to the development of any solution, particularly into the software development, as it helps the designers and developers to create a user-focused application.
