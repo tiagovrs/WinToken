@@ -131,10 +131,17 @@
 
 ##  <a name="c4"></a>⚙️ 4. Technical Description
 
- Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
+Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
+
+- React: this framework is a widely used technology for web development. Therefore, there were several materials to work with on the Internet, including a large number of libraries. Consequently, front end development was facilitated by the of React, which is also a technology the group is used to.
+
+- Lumx Protocol: this blockchain protocol was used to integrate the user wallets for our web app. Incorporating smart wallets offers a decentralized, seamless, and secure way to manage digital assets. It abstracts away the complexities of the blockchain for users, integrating them with a familiar user experience without requiring them to manage keys, sign transactions, or pay network fees.
+- Solidity: this programming language is used on the deployment of smart contracts. Furthermore, it is supported by the Ethereum Virtual Machine, a software used during the MVP development of WinToken.
+- IPFS: this descentralized storage software was used to store the digital content associated with our NFTs. Instead of storing the content directly on the blockchain (which can be expensive and impractical due to storage limitations), the content was stored on the IPFS network.
+- HardHat: this development environment for Ethereum was used to facilitate tests with regard to smart contract creations. It provides tools and utilities for compiling, deploying, testing, and debugging Ethereum smart contracts
 
 ##  <a name="c5"></a>🎯 5. Conclusion and Future Plans
-
+ 
 
 ##  <a name="c6"></a>💾  6. Repository
 
@@ -177,3 +184,4 @@ npm run dev
 ##  <a name="c7"></a>💻  7. References
 
 BLOOMBERG NEWS; GLUM, R. Warner Bros. Shares Fall 10% on Report That Comcast Seeks NBA TV Deal - BNN Bloomberg. Disponível em: <https://www.bnnbloomberg.ca/warner-bros-shares-fall-10-on-report-that-comcast-seeks-nba-tv-deal-1.2067124>. Acesso em: 4 maio. 2024.  
+DEITSCH, R. et al. ESPN, FOX, Warner Bros. Discovery launching streaming service. Disponível em: <https://theathletic.com/5255840/2024/02/06/espn-fox-warner-sports-streaming-service/>. Acesso em: 4 maio. 2024. 
