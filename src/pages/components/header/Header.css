@@ -13,7 +13,7 @@
     color: #fff;
 }
 
-.win {
+.winTxt {
     font-weight: bolder;
     color: #a25ca4;
 }
@@ -38,4 +38,8 @@
     border-radius: 50%;
     background-color: #f00;
     position: absolute;
+}
+
+.profileBtn{
+    color: #fff;
 }

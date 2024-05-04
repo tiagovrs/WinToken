@@ -4,9 +4,9 @@ import Scan from "./pages/scan/Scan";
 import Bets from "./pages/bets/Bets";
 import Shop from "./pages/shop/Shop";
 import Login from "./pages/login/Login";
+import ViewProfile from "./pages/viewProfile/ViewProfile";
 
 function App() {
-
   return (
     <div>
       <BrowserRouter>
@@ -16,6 +16,8 @@ function App() {
           <Route path="/scan" element={<Scan />} />
           <Route path="/loja" element={<Shop />} />
           <Route path="/apostas" element={<Bets />} />
+          <Route path="/perfil" element={<ViewProfile />} />
+          <Route path="/historico" element={<Historic />} />
         </Routes>
       </BrowserRouter>
     </div>
