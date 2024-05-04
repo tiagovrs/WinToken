@@ -1,7 +1,29 @@
-.container{
+.bottomContainer{
     background-color: #a25ca4;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 80px;
+}
+
+.navBtn{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.navBtn p{
+   font-weight: bold;
+}
+
+.btnIcon{
+    font-size: 38px;
+    line-height: 10px;
+}
+
+.selected{
+    color: #ccc;
 }
