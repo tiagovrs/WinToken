@@ -14,7 +14,7 @@
 - Desafio Lumx Hack
 - Desafio Chiliz: Trilha Projeto de SportFi
 
-The "Desafio Lumx Hack" had the following requirements:
+&nbsp;&nbsp;&nbsp;&nbsp; The "Desafio Lumx Hack" had the following requirements:
 
 <div align="center">
 <sub>Table 1 - Requirements Desafio Lumx Hack</sub>
@@ -28,7 +28,7 @@ The "Desafio Lumx Hack" had the following requirements:
 <sup> Adapted from Lumx Hack (2024) </sup>
 </div>
 
-On the other hand Desafio Chiliz possuía os seguintes requisitos:
+&nbsp;&nbsp;&nbsp;&nbsp;On the other hand Desafio Chiliz possuía os seguintes requisitos:
 
 <div align="center">
 <sub>Table 2 - Requirements Desafio Chiliz</sub>
@@ -45,7 +45,7 @@ On the other hand Desafio Chiliz possuía os seguintes requisitos:
 
 ⚙️ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
-## 📝 What is WinToken?
+## 📋 What is WinToken?
 
 &nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a betting web app integrated with Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; For such purpose, WinToken shall be present in live streamings of NBA games featuring famous teams such as the Los Angeles Lakers and the Boston Celtics. It is expected that in its first appeareances, the fans may be puzzled with the sudden pop-up: "Reedem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow. That is when our user journey begins. <br>
@@ -97,26 +97,4 @@ npm start
 ```
 5. Agora você pode acessar a aplicação através do link http://localhost:1234/
 6. O servidor está online.
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
-## 📋 Licença/License
-```
-Alunos inteli (remover essa observação do readme.md após leitura e execução, junto com o link para o tutorial):
-
-1. Siga o tutorial para criação da licença: https://drive.google.com/file/d/1hXWLHUhjBkPVuGqeE2LZKozFntnJZzlx/view
-```
-
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Intelihub/Template_M2/">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, Nome do integrante 1, Nome do integrante 2, Nome do integrante 3, Nome do integrante 4, Nome do integrante 5, Nome do integrante 6, Nome do integrante 7</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
