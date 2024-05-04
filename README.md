@@ -76,12 +76,32 @@
 
 ##  <a name="c3"></a>🌐 3. Market Analysis
 
+## 3.2 Persona & User Stories
+&nbsp;&nbsp;&nbsp;&nbsp; Personas and User stories are essential pieces of the development of a MVP. Both have direct impact into how the solution will be built, working as a tool to guide the developers and the designers into the user-focused development.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Personas, specifically, have the power to create empathy into the development team, as they have a user to focus and to attend.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Besides, the user stories work as a key to the agile development. They are used to help the definition of the development scope, helping the devs to focus on the essential functionalities of the application.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Therefore, both personas and user stories are crucial to the identification, definition and priorization of the requirements of the MVP. They work to guarantee the viability of the work and remind the team to create a solution that is user centered. That is why the WinToken have the "Fanatic", Joshua as its persona: to remind the team to create a solution that brings value to the final user.
+
+<div align="center">
+<sub>Figure 1 - Persona</sub>
+
+<img alt='Persona "Fanatic, Joshua"' src='assets/Persona - WinToken.png'>
+
+<sup> Copyright Material(2024) </sup>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp; With Joshua, the team of development was capable to measure how their features, such as the QR Code scanning section, were affecting his experience inside the app. With his stories, they were able to focus in creating features, such as the highlights, that were useful and meaningful to the application.
+
 ### 3.3 Value Proposition Canva
+
 &nbsp;&nbsp;&nbsp;&nbsp; The Value Proposition Canva (VPC) is a visual tool that describe and analyse the value a solution give to the user. It aims to understand the way a solution relives the pain of the final client, while creating gains and making their job to finish a task easier. This tool is pivotal to the development of any solution, particularly into the software development, as it helps the designers and developers to create a user-focused application.
 
 <div align='center'>
 
-<sup>Figure X - Value Proposition Canva</sup>
+<sup>Figure 2 - Value Proposition Canva</sup>
 
 <img alt='Value Proposition Canva' src='assets\VPC.png'>
 
