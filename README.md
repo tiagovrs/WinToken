@@ -139,12 +139,13 @@ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 - Solidity: this programming language is used on the deployment of smart contracts. Furthermore, it is supported by the Ethereum Virtual Machine, a software used during the MVP development of WinToken.
 - IPFS: this descentralized storage software was used to store the digital content associated with our NFTs. Instead of storing the content directly on the blockchain (which can be expensive and impractical due to storage limitations), the content was stored on the IPFS network.
 - HardHat: this development environment for Ethereum was used to facilitate tests with regard to smart contract creations. It provides tools and utilities for compiling, deploying, testing, and debugging Ethereum smart contracts
-
-##  <a name="c5"></a>🎯 5. Conclusion and Future Plans
  
+##  <a name="c5"></a>🎯 5. Conclusion and Future Plans
+&nbsp;&nbsp;&nbsp;&nbsp; The use of WinToken in streaming services will represent a revolution into the fan engagement industry. When taking advantage of the blockchain technology, the application brings a new way of interaction between the live streaming and the final client. Furthermore, by working the costumer loyalty through an reward system, it improves the fan experience with sports streaming services. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp; Looking at the future, the Wintoken team hopes to obtain partnerships with streaming services and sports clubs. In order to test beta versions of the game, we aim at operating with under viewed competitions, such as amateur competitions.
 
 ##  <a name="c6"></a>💾  6. Repository
-
 
 ### 6.1 📝 Link de demonstração
 
