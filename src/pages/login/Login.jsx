@@ -1,7 +1,14 @@
-export default function Login() {
+import AuthDetails from "./components/AuthDetails";
+import LoginForm from "./components/LoginForm/LoginForm";
+import SignUp from "./components/SignUp/SignUp";
+import './Login.css'
+function Login() {
     return (
-      <div>
-        <h1>Login</h1>
-      </div>
+      <body className='login-body'>
+        <LoginForm />
+        <SignUp></SignUp>
+        <AuthDetails />
+      </body>
     );
   }
+export default Login

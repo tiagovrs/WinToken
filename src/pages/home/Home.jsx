@@ -4,8 +4,15 @@ import Library from "./componentes/libraryContainer/LibraryContainer";
 import Loja from "./componentes/shopContainer/ShopContainer";
 import BalanceContainer from "./componentes/balanceContainer/BalanceContainer";
 import "./Home.css";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase"
 
-export default function Home() {
+
+function Private() {
+  const handleSignOut = () => {
+    signOut(auth)
+      .then(() => console.log("Sign Out"))
+      .catch((error) => console.log(error));}
   return (
     <body>
       <Header />
@@ -21,3 +28,4 @@ export default function Home() {
     </body>
   );            
 }
+export default Private

@@ -1,5 +1,4 @@
 
-import BasicDemo from "../../components/BasicDemo/BasicDemo";
 import "./BetPageContainer.css";
 
 function BetPageContainer() {
