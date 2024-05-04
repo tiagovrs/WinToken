@@ -35,10 +35,10 @@
 2. Align with, at least, one of the following themes: customer loyalty, client engagement, finances, insurance, games, and sports;
 3. Use Blockchain as the foundation of the solution.
 
-&nbsp;&nbsp;&nbsp;&nbsp;On the other hand Desafio Chiliz possuía os seguintes requisitos:
+&nbsp;&nbsp;&nbsp;&nbsp;On the other hand Desafio Chiliz had the following requirements
 
-1. Align with, at least, one of the following themes: DEX platforms, loans, SocialFi, gamified betting/pool, no-loss betting platform, SportFi infrastructure project;
-2. Preferably use Fan Tokens.
+1. Thematic alignment with sports and entertainment;
+2. Operating Smart Contracts.
 
 &nbsp;&nbsp;&nbsp;&nbsp; All these requirements have been accounted for during development and therefore are present in the webapp's MVP.
 
@@ -47,17 +47,18 @@
 
 ###  2.1 What is WinToken?
 
-&nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a betting web app integrated with Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; For such purpose, WinToken shall be present in live streamings of NBA games featuring famous teams such as the Los Angeles Lakers and the Boston Celtics. It is expected that in its first appeareances, the fans may be puzzled with the sudden pop-up: "Redeem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow. That is when our user journey begins. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Our app is about costumer loyalty and taking sports to costumers' home. It is not enough betting and seeing the result of your bet afterwards when the game is over. We want people to bet and constantly interact with the game. For those people who are engaged stadium-goers, we give the opportunity to thrilled and pennyless watch their teams and bet on it. On the other hands, for those people who don't watch any games at all, but like to bet, we give a reason to engage in their favorite sport. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; In order to perform such tasks, WinToken's user shall have the following journey:
-- Reedem x tokens by scanning a QR Code that randomly pops up on Twitch sports' transmissions
-- Exchange tokens for exciting bets:
-> "How many points will Lebron make today? 
-> Enter a number: _____"
-- If right, earn an exclusive NFT. 
+&nbsp;&nbsp;&nbsp;&nbsp; WinToken is the solution for engaging fans on sports streaming. First conceived for NBA enthusiasts, WinToken is a webapp integrated with the Blockchain technology. It incentivizes the basketball community to actively participate in the game, while ensuring the security and transparency inherent to decentralized applications on its transactions. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Nowadays, it is much easier to convince a person into going to a stadium to see a particular sport than watch a four-hour match at their homes. The market for streaming services of sports are, therefore, saturated. Those who are fanatic fans, watch it while those who are not so involved with the team, do not. Consequently streaming services lose great demand for substitutes such as match highlight videos.
+&nbsp;&nbsp;&nbsp;&nbsp; We propose a change for this status quo. Aiming at costumer loyalty, WinToken came to capture new markets and captivate the whole public of the team. For fanatics, it is an add. For those who just follow the trendings of their teams, it is an invite. How? We propose leveraging the streaming experience by adding rewards into it. First conceived for baskteball live transmissions, WinToken shall be present on online streamings of NBA games. 
+&nbsp;&nbsp;&nbsp;&nbsp; Perhaps, on its first appeareances, the fans may be puzzled with the sudden pop-up: "Redeem 200 tokens today and enter for a chance to win NFT" followed by a QR code on their Twitch screens. However, soon natural curiosity will follow and that is when our user journey begins.
+1. First, the user will scan our QR Code and navigate to our app interface on the web.
+2. Then, they will be able to create an account using their email;
+    2.1. This will generate a wallet, which is controlled by Lumx technology;
+3. Subsequently, our system mynts x WTK tokens on the user's wallet;
+5. Lastly, the user is able to exchange tokens for NFTs or spin the NFT roulette.
 
-&nbsp;&nbsp;&nbsp;&nbsp; Therefore, it can be seen that our app adds a completely new dimension for betting prizes today. It revolutizes the market for betting by giving sports fans the chance to enter the NFT market. Our value proposal to overcome the competition is explore a new market: NFTbets. This is what WinToken is about. 
+&nbsp;&nbsp;&nbsp;&nbsp; WinToken adds something for the fan to wait for - a prize to be claimed -, while allowing for team spirit and community engagement. However, it does that with the state of the art of finance and gaming. The solution is not much far away from the good and old collectible cards of yesterday, but it makes it modern. Yesterday, we bought and exchange perishable cards. Today, we use blockchain, watch our beloved team and gain tokens to buy eternal, exclusive, and valuable cards. This is what WinToken is about: rewarding fans with innovation.
+
 
 ###  2.2 Why WinToken?
 
