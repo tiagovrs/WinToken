@@ -30,8 +30,8 @@ export default function Shop() {
           </div>
         </div>
         <div className="productsList">
-          <Product name="Boné Oficial" imageUrl="src/assets/products/boneNba.png" imageDesc="Boné da NBA" price={10}/>
-          <Product name="Camisa Manchester City 23/24" imageUrl="src/assets/products/camisaFut.png" imageDesc="Camisa de Futebol" price={60}/>
+          <Product name="Boné Oficial Bulls" imageUrl="src/assets/products/boneNba.png" imageDesc="Boné da NBA" price={10}/>
+          <Product name="Camisa Manchester" imageUrl="src/assets/products/camisaFut.png" imageDesc="Camisa de Futebol" price={60}/>
           <Product name="Regata Nike Lakers" imageUrl="src/assets/products/regataNba.png" imageDesc="Regata da NBA" price={180}/>
           <Product name="Chuteira Nike Mercurial" imageUrl="src/assets/products/chuteiraFut.png" imageDesc="Chuteira de Futeboç" price={105}/>
           <Product name="Bola de Basquete" imageUrl="src/assets/products/bolaNba.png" imageDesc="Bola da NBA" price={40}/>
