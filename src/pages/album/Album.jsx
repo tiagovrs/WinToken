@@ -17,7 +17,7 @@ export default function Album() {
           />
           <NftCard
             urlImg="src\assets\albumNfts\GoalGlory.jpeg"
-            title="GoalGlory"
+            title="Goal Glory"
             price={250}
           />
           <NftCard

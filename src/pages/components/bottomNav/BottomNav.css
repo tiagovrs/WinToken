@@ -8,6 +8,7 @@
     height: 80px;
     position: fixed;
     bottom: 0;
+    box-shadow: 0 0 10px #00000085;
 }
 
 .navBtn{

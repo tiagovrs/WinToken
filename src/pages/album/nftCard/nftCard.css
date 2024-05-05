@@ -1,13 +1,14 @@
 .nftCardFrame{
     background-color: #d9d9d9;
     width: 120px;
-    height: 170px;
+    height: 175px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 0 10px #000;
 }
 
 .nftCardFrame img{
