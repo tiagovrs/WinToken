@@ -15,6 +15,7 @@ export default function AlertDialog() {
 
   const handleClose = () => {
     setOpen(false);
+    location.href = '/'
   };
 
   useEffect(() => {
@@ -31,7 +32,7 @@ export default function AlertDialog() {
       >
         <DialogContent className='caixa-dialogo'>
           <DialogContentText id="alert-dialog-description">
-          Parábens! Seus tokens foram resgatados com sucesso e em breve estar disponíveis na sua conta!
+          Parábens! Seus tokens foram resgatados com sucesso e em breve estarão disponíveis na sua conta!
           </DialogContentText>
         </DialogContent>
         <DialogActions className='caixa-dialogo-2'>

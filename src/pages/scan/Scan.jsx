@@ -38,7 +38,6 @@ export default function Scan() {
           'Authorization': `Bearer ${apiKey}`
         }
       })
-      
       return response.data;
     } catch (error) {
       console.error('Erro ao buscar dados:', error);
@@ -77,8 +76,8 @@ export default function Scan() {
     try {
       const result = searchvalue.split('-');
       reedemTokens({
-        index: result[1],
-        hashKey: result[0]
+        index: parseInt(result[1]),
+        hashKey: parseInt(result[0])
       })
       setScanResult(result);
     } catch(err) {
