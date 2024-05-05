@@ -4,7 +4,7 @@ import Header from "../components/header/Header";
 import BottomNav from "../components/bottomNav/BottomNav";
 import { faQrcode, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Html5QrcodeScanner } from "html5-qrcode";
-import "./Scan.css";
+import "./scan.css";
 
 export default function Scan() {
   const [searchvalue, setSearchValue] = useState("");
