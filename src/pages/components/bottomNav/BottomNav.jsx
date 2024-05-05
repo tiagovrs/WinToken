@@ -5,7 +5,7 @@ import {
   faSackDollar,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
-import "./bottomNav.css";
+import "./BottomNav.css";
 
 export default function BottomNav() {
   return (
