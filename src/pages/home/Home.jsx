@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../components/header/Header";
 import "./Home.css";
+import BottomNav from "../components/bottomNav/BottomNav";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 import { provider } from "../../config/api/axios";
@@ -33,7 +34,7 @@ function Private() {
   handleGetBalance();
 
   return (
-    <>
+    <body>
       <Header />
 
       <div className="homeContainer">
@@ -45,7 +46,7 @@ function Private() {
         <div className="luckAndQrContainer">
           <Link to="/apostas" className="luckContainer">
             <div className="luckTitleContainer">
-              <h2 className="luckTitle">Teste sua sorte:</h2>
+              <h2 className="luckTitle">Teste sua sorte</h2>
               <p className="luckTxt">Aposte WTKs e concorra a NFTs</p>
             </div>
 
@@ -94,7 +95,8 @@ function Private() {
           </div>
         </Link>
       </div>
-    </>
+      <BottomNav /> 
+    </body>
   );
 }
 export default Private;

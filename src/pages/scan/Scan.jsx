@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Header from "../components/header/Header";
 import BottomNav from "../components/bottomNav/BottomNav";
-import { faBarcode, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faQrcode, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Html5QrcodeScanner } from "html5-qrcode";
 import "./Scan.css";
 import { reedemManagerAddress } from "../../contracts/ReedemManagerAbi";
@@ -87,7 +87,7 @@ export default function Scan() {
   }
 
   return (
-    <>
+    <body>
       <Header />
       <div className="camScrennContainer">
         {scanResult ? (
@@ -100,10 +100,11 @@ export default function Scan() {
 
         <div className="inputDescCamContainer">
           <h2 className="qrTitle">
-            Aponte para o QR code <br /> ou
+          Aponte para o QR code
           </h2>
+          <div className="linha-horizontal"><span>ou</span></div>
           <div className="qrSearch">
-            <FontAwesomeIcon className="qrIcon" icon={faBarcode} />
+            <FontAwesomeIcon className="qrIcon" icon={faQrcode} />
             <input
               type="text"
               value={searchvalue}
@@ -124,6 +125,6 @@ export default function Scan() {
         </div>
       </div>
       <BottomNav />
-    </>
+    </body>
   );
 }

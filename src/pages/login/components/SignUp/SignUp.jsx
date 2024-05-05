@@ -5,6 +5,7 @@ import { apiKey } from "../../../../config/api/axios";
 import { doc, setDoc } from "firebase/firestore";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
+import './SignUp.css'
 
 const SignUp = () => {
   const [email, setEmail] = useState("");
@@ -43,23 +44,29 @@ const SignUp = () => {
   };
 
   return (
+    <div className="order">
+     <div className="title">
+        <span className="win">WIN</span>TOKEN
+  
     <div className="sign-in-container">
       <form onSubmit={signUp}>
-        <h1>Create Account</h1>
+        <h1>Criar conta</h1>
         <input
           type="email"
-          placeholder="Enter your email"
+          placeholder="Digite seu email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         ></input>
         <input
           type="password"
-          placeholder="Enter your password"
+          placeholder="Digite sua senha"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         ></input>
         <button type="submit">Sign Up</button>
       </form>
+    </div>    
+    </div>
     </div>
   );
 };

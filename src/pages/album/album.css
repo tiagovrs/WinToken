@@ -1,0 +1,26 @@
+.albumContainer {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #262626;
+}
+
+.albumTitle {
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.cardsContainer {
+  padding: 15px 0;
+  gap: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
