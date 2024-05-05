@@ -1,31 +1,88 @@
-import BottomNav from "../components/bottomNav/BottomNav";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faClover,
+  faQrcode,
+  faCartShopping,
+  faImages,
+} from "@fortawesome/free-solid-svg-icons";
 import Header from "../components/header/Header";
-import Library from "./componentes/libraryContainer/LibraryContainer";
-import Loja from "./componentes/shopContainer/ShopContainer";
-import BalanceContainer from "./componentes/balanceContainer/BalanceContainer";
-import "./Home.css";
+import "./home.css";
 import { signOut } from "firebase/auth";
-import { auth } from "../../firebase"
-
+import { auth } from "../../firebase";
 
 function Private() {
+  const [wtkQtd, setWtkQtd] = useState(1000);
+
   const handleSignOut = () => {
     signOut(auth)
       .then(() => console.log("Sign Out"))
-      .catch((error) => console.log(error));}
+      .catch((error) => console.log(error));
+  };
+
   return (
     <body>
       <Header />
-      <div className="org">
-        <BalanceContainer></BalanceContainer>
-        <div className="organizacao">
-          <Loja path='src\assets\Frame 3.png' label='Quantos pontos Leandro da Silva fará hoje (04/05)?' p='50 TOKENS'>Aposte e concorra a NFTs exclusivas </Loja>
-          <Loja path='src\assets\Rectangle 40 (1).png' label='Camisa oficial' p='1700 TOKENS'>Troque seus tokens por itens reais</Loja>
+
+      <div className="homeContainer">
+        <div className="balanceContainer">
+          <h2>Seu saldo:</h2>
+          <h2>{wtkQtd} WTKs</h2>
         </div>
-        <Library />
+
+        <div className="luckAndQrContainer">
+          <div className="luckContainer">
+            <div className="luckTitleContainer">
+              <h2 className="luckTitle">Teste sua sorte:</h2>
+              <p className="luckTxt">Aposte WTKs e concorra a NFTs</p>
+            </div>
+
+            <div className="luckIconContainer">
+              <FontAwesomeIcon className="luckIcon" icon={faClover} />
+            </div>
+          </div>
+
+          <div className="qrContainer">
+            <div className="qrTitleContainer">
+              <h2 className="qrTitle">Escanear QR Code</h2>
+            </div>
+
+            <div className="qrIconContainer">
+              <FontAwesomeIcon className="qrIcon" icon={faQrcode} />
+            </div>
+          </div>
+        </div>
+
+        <div className="shopAndAlbumContainer">
+          <div className="shopAlbumIconContainer">
+            <FontAwesomeIcon
+              className="shopAlbumIconIcon"
+              icon={faCartShopping}
+            />
+          </div>
+
+          <div className="txtShopAlbumContainer">
+            <h2 className="shopAndAlbumTitle">Loja de NFTs</h2>
+            <p className="shopAndAlbumParagraph">
+              Compre NFTs e complete seu álbum
+            </p>
+          </div>
+        </div>
+
+        <div className="shopAndAlbumContainer">
+          <div className="shopAlbumIconContainer">
+            <FontAwesomeIcon className="shopAlbumIconIcon" icon={faImages} />
+          </div>
+          
+          <div className="txtShopAlbumContainer">
+            <h2 className="shopAndAlbumTitle">Album de NFTs</h2>
+            <p className="shopAndAlbumParagraph">
+              Acesse seu álbum e acompanhe seu processo
+            </p>
+          </div>
+        </div>
       </div>
-      <BottomNav />
     </body>
-  );            
+  );
 }
-export default Private
+export default Private;
