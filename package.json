@@ -15,6 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@lumx-protocol/embedded-wallet": "^0.0.25",
     "firebase": "^10.11.1",
     "html5-qrcode": "^2.3.8",
     "primereact": "^10.6.5",
