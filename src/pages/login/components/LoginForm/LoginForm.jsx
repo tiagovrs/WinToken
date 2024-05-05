@@ -7,6 +7,7 @@ import "./LoginForm.css";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { getDoc, doc } from "firebase/firestore";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function LoginForm() {
   const [email, setEmail] = useState("");
@@ -54,7 +55,8 @@ function LoginForm() {
           </div>
           <button type="submit">Login</button>
         </form>
-        <label className="label-singup">Ainda não possui uma conta? <a>Clique aqui para criar</a></label>
+        <div className="go-to-signup">
+        <label className="label-singup">Ainda não possui uma conta? <br></br><Link to='/signup'><a className="link-signup">Clique aqui para criar</a></Link></label></div>
       </div>
     </div>
   );

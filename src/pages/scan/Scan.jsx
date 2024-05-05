@@ -32,7 +32,7 @@ export default function Scan() {
   }, []);
 
   return (
-    <>
+    <body>
       <Header />
       <div className="camScrennContainer">
         {scanResult ? (
@@ -70,6 +70,6 @@ export default function Scan() {
         </div>
       </div>
       <BottomNav />
-    </>
+    </body>
   );
 }

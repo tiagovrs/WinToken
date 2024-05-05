@@ -7,6 +7,8 @@ import Login from "./pages/login/Login";
 import ViewProfile from "./pages/viewProfile/ViewProfile";
 import Album from "./pages/album/Album";
 import { ProtectedRoute } from "./pages/ProtectedRoute";
+import SignUpPage from "./pages/login/SignUpPage/SignUpPage";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUpPage />} />
           <Route path="/" element={
             <ProtectedRoute>
               <Home />
