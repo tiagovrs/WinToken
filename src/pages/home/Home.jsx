@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faClover,
+  faDice,
   faQrcode,
   faCartShopping,
   faImages,
@@ -51,7 +51,7 @@ function Private() {
             </div>
 
             <div className="luckIconContainer">
-              <FontAwesomeIcon className="luckIcon" icon={faClover} />
+              <FontAwesomeIcon className="luckIcon" icon={faDice} />
             </div>
           </Link>
 
