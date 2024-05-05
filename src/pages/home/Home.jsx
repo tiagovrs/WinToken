@@ -23,7 +23,7 @@ function Private() {
   };
 
   return (
-    <>
+    <body>
       <Header />
 
       <div className="homeContainer">
