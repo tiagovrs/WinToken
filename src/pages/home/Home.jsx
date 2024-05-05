@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClover,
@@ -31,7 +32,7 @@ function Private() {
         </div>
 
         <div className="luckAndQrContainer">
-          <div className="luckContainer">
+          <Link to="/apostas" className="luckContainer">
             <div className="luckTitleContainer">
               <h2 className="luckTitle">Teste sua sorte:</h2>
               <p className="luckTxt">Aposte WTKs e concorra a NFTs</p>
@@ -40,20 +41,20 @@ function Private() {
             <div className="luckIconContainer">
               <FontAwesomeIcon className="luckIcon" icon={faClover} />
             </div>
-          </div>
+          </Link>
 
-          <div className="qrContainer">
+          <Link to="/scan" className="qrContainer">
             <div className="qrTitleContainer">
-              <h2 className="qrTitle">Escanear QR Code</h2>
+              <h2 className="qrTxt">Escanear QR Code</h2>
             </div>
 
             <div className="qrIconContainer">
               <FontAwesomeIcon className="qrIcon" icon={faQrcode} />
             </div>
-          </div>
+          </Link>
         </div>
 
-        <div className="shopAndAlbumContainer">
+        <Link to="/loja" className="shopAndAlbumContainer">
           <div className="shopAlbumIconContainer">
             <FontAwesomeIcon
               className="shopAlbumIconIcon"
@@ -67,9 +68,9 @@ function Private() {
               Compre NFTs e complete seu álbum
             </p>
           </div>
-        </div>
+        </Link>
 
-        <div className="shopAndAlbumContainer">
+        <Link to="/album" className="shopAndAlbumContainer">
           <div className="shopAlbumIconContainer">
             <FontAwesomeIcon className="shopAlbumIconIcon" icon={faImages} />
           </div>
@@ -80,7 +81,7 @@ function Private() {
               Acesse seu álbum e acompanhe seu processo
             </p>
           </div>
-        </div>
+        </Link>
       </div>
     </body>
   );

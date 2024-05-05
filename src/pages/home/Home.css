@@ -1,5 +1,5 @@
 *{
-    /* border: 1px solid #0f0; */
+  /* border: 1px solid #0f0; */
 }
 .homeContainer {
   display: flex;
@@ -30,6 +30,7 @@
 }
 
 .luckContainer {
+  color: #fff;
   border-radius: 5px;
   margin-right: 5px;
   height: 100%;
@@ -79,26 +80,34 @@
   justify-content: flex-start;
 }
 
-.qrTitle {
-  font-size: 80px;
+.qrTxt {
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .qrIcon {
+  color: #fff;
   font-size: 80px;
+  
 }
 
 .shopAndAlbumContainer{
-    height: 75px;
-    background-color: #262626;
-    border-radius: 5px;
-    display: flex;
-    padding: 5px;
-    gap: 15px;
+  height: 75px;
+  color: #fff;
+  background-color: #262626;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  gap: 15px;
 }
 
 .shopAndAlbumContainer:last-of-type{
-    background-color: #a25ca4;
-    margin-top: 17px;
+  background-color: #a25ca4;
+  margin-top: 17px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
