@@ -8,7 +8,7 @@ import {
   faImages,
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../components/header/Header";
-import "./home.css";
+import "./Home.css";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 

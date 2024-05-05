@@ -4,7 +4,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Header from "../components/header/Header";
 import BottomNav from "../components/bottomNav/BottomNav";
 import Product from "./product/Product";
-import "./shop.css";
+import "./Shop.css";
 
 export default function Shop() {
   const [searchvalue, setSearchValue] = useState("");
