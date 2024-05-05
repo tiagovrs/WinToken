@@ -18,7 +18,7 @@ export default function Shop() {
       <Header />
       <div className="shopContainer">
         <div className="shopHeader">
-          <h1 className="shopTitle">Loja</h1>
+          <h1 className="shopTitle">Loja de NFTs</h1>
           <div className="searchBar">
             <input
               type="text"
@@ -30,13 +30,8 @@ export default function Shop() {
           </div>
         </div>
         <div className="productsList">
-          <Product name="Boné Oficial Bulls" imageUrl="src/assets/products/boneNba.png" imageDesc="Boné da NBA" price={10}/>
-          <Product name="Camisa Manchester" imageUrl="src/assets/products/camisaFut.png" imageDesc="Camisa de Futebol" price={60}/>
-          <Product name="Regata Nike Lakers" imageUrl="src/assets/products/regataNba.png" imageDesc="Regata da NBA" price={180}/>
-          <Product name="Chuteira Nike Mercurial" imageUrl="src/assets/products/chuteiraFut.png" imageDesc="Chuteira de Futeboç" price={105}/>
-          <Product name="Bola de Basquete" imageUrl="src/assets/products/bolaNba.png" imageDesc="Bola da NBA" price={40}/>
-          <Product name="Camisa MLB New York" imageUrl="src/assets/products/camisaMbl.png" imageDesc="Camisa da NBA" price={230}/>
-          <Product name="Garrafa NBA" imageUrl="src/assets/products/garrafaNba.png" imageDesc="Garrafa da NBA" price={5}/>
+          <Product name="Clutch NFT" imageUrl="src\assets\nft1.jfif" imageDesc="NFT clutch" price={10000}/>
+          <Product name="Dunk NFT" imageUrl="src\assets\nft2.jfif" imageDesc="NFT dunk" price={17000}/>
         </div>
       </div>
       <BottomNav />
