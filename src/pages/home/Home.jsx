@@ -44,7 +44,7 @@ function Private() {
         </div>
 
         <div className="luckAndQrContainer">
-          <Link to="/apostas" className="luckContainer">
+          <Link to="/roleta" className="luckContainer">
             <div className="luckTitleContainer">
               <h2 className="luckTitle">Teste sua sorte</h2>
               <p className="luckTxt">Aposte WTKs e concorra a NFTs</p>

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Scan from "./pages/scan/Scan";
-import Bets from "./pages/bets/Bets";
+import Roullete from "./pages/roullete/Roullete";
 import Shop from "./pages/shop/Shop";
 import Login from "./pages/login/Login";
 import ViewProfile from "./pages/viewProfile/ViewProfile";
@@ -32,9 +32,9 @@ function App() {
               <Shop />
             </ProtectedRoute>} />
 
-          <Route path="/apostas" element={
+          <Route path="/roleta" element={
             <ProtectedRoute>
-              <Bets />
+              <Roullete />
             </ProtectedRoute>} />
 
           <Route path="/perfil" element={

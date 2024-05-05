@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faQrcode,
   faStore,
-  faSackDollar,
+  faDice,
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useLocation } from "react-router-dom";
@@ -18,7 +18,7 @@ export default function BottomNav() {
         }`}
       >
         <FontAwesomeIcon className="btnIcon" icon={faHome} />
-        <p>Home</p>
+        <p>Início</p>
       </Link>
 
       <Link
@@ -42,13 +42,13 @@ export default function BottomNav() {
       </Link>
 
       <Link
-        to="/apostas"
+        to="/roleta"
         className={`navBtn ${
-          useLocation().pathname === "/apostas" ? "selected" : ""
+          useLocation().pathname === "/roleta" ? "selected" : ""
         }`}
       >
-        <FontAwesomeIcon className="btnIcon" icon={faSackDollar} />
-        <p>Apostar</p>
+        <FontAwesomeIcon className="btnIcon" icon={faDice} />
+        <p>Roleta</p>
       </Link>
 
     </div>
