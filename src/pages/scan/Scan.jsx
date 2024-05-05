@@ -21,14 +21,14 @@ export default function Scan() {
       {
         "contractAddress": reedemManagerAddress,
         "operations": [
-            {
+          {
             "functionSignature": "receiveReedem(uint256, uint256)",
             "argumentsValues": [
-                reedemData.index.toString(),
-                reedemData.hashKey.toString()
+                reedemData.index,
+                reedemData.hashKey
             ],
             "messageValue": 0
-            }
+          }
         ],
         "walletId": user.walletId
       }, 
