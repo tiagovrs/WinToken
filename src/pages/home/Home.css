@@ -1,0 +1,149 @@
+/*
+*{
+  border: 1px solid #0f0; 
+}*/
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+.balanceContainer {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 5px;
+  background-color: #262626;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.luckAndQrContainer {
+  margin: 17px 0;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.luckContainer {
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 5px;
+  height: 100%;
+  background-color: #262626;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.luckTitle {
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.luckTxt {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0px 0px 0px 5px;
+}
+
+.luckIcon {
+  font-size: 80px;
+}
+
+.qrContainer {
+  background-color: #573458;
+  border-radius: 5px;
+  margin-left: 5px;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qrTitleContainer, .luckTitleContainer, .qrIconContainer, .luckIconContainer{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex: 3;
+}
+
+.qrIconContainer, .luckIconContainer {
+  justify-content: flex-start;
+}
+
+.qrTxt {
+  color: #fff;
+  text-align: center;
+  margin: 35px 0;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.qrIcon {
+  color: #fff;
+  font-size: 80px;
+  
+}
+
+.shopAndAlbumContainer{
+  height: 75px;
+  color: #fff;
+  background-color: #262626;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  gap: 15px;
+}
+
+.shopAndAlbumContainer:last-of-type{
+  background-color: #573458;
+  margin-top: 17px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.shopAlbumIconContainer{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shopAlbumIconIcon{
+    font-size: 40px;
+    margin-right: 13px
+}
+
+.txtShopAlbumContainer{
+    flex: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.shopAndAlbumTitle{
+    font-size: 16px;
+}
+
+.shopAndAlbumParagraph{
+    font-size: 14px;
+    line-height: 15px;
+}

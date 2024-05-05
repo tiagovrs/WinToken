@@ -1,0 +1,28 @@
+.headerContainer {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+}
+
+.winTxt {
+    font-weight: bolder;
+    color: #a25ca4;
+}
+
+.bellIcon {
+    font-size: 28px;
+}
+
+.profileBtn{
+    color: #fff;
+}

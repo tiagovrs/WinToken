@@ -105,7 +105,7 @@
 <div align="center">
 <sub>Figure 1 - Persona</sub>
 
-<img alt='Persona "Fanatic, Joshua"' src='assets/Persona - WinToken.png'>
+<img alt='Persona "Fanatic, Joshua"' src='assets-doc/Persona - WinToken.png'>
 
 <sup> Copyright Material(2024) </sup>
 </div>
@@ -120,7 +120,7 @@
 
 <sup>Figure 2 - Value Proposition Canva</sup>
 
-<img alt='Value Proposition Canva' src='assets\VPC.png'>
+<img alt='Value Proposition Canva' src='assets-doc\VPC.png'>
 
 <sub>Copyright Material(2024)</sub>
 

@@ -1,0 +1,34 @@
+
+.bottomContainer{
+    background-color: #262626;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+}
+
+.navBtn{
+    flex-grow: 1;
+    color: #fff;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navBtn p{
+   font-weight: bold;
+}
+
+.btnIcon{
+    font-size: 38px;
+    line-height: 10px;
+}
+
+.selected{
+    background-color: #a25ca4;
+}
