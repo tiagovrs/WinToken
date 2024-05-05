@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faQrcode,
-  faStore,
+  faCartShopping,
   faDice,
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
@@ -37,7 +37,7 @@ export default function BottomNav() {
           useLocation().pathname === "/loja" ? "selected" : ""
         }`}
       >
-        <FontAwesomeIcon className="btnIcon" icon={faStore} />
+        <FontAwesomeIcon className="btnIcon" icon={faCartShopping} />
         <p>Loja</p>
       </Link>
 
