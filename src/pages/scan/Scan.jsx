@@ -4,7 +4,7 @@ import Header from "../components/header/Header";
 import BottomNav from "../components/bottomNav/BottomNav";
 import { faBarcode, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Html5QrcodeScanner } from "html5-qrcode";
-import "./scan.css";
+import "./Scan.css";
 
 export default function Scan() {
   const [searchvalue, setSearchValue] = useState("");
@@ -32,7 +32,7 @@ export default function Scan() {
   }, []);
 
   return (
-    <body>
+    <>
       <Header />
       <div className="camScrennContainer">
         {scanResult ? (
@@ -69,6 +69,6 @@ export default function Scan() {
         </div>
       </div>
       <BottomNav />
-    </body>
+    </>
   );
 }

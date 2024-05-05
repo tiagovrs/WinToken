@@ -22,7 +22,7 @@ function Private() {
   };
 
   return (
-    <body>
+    <>
       <Header />
 
       <div className="homeContainer">
@@ -83,7 +83,7 @@ function Private() {
           </div>
         </Link>
       </div>
-    </body>
+    </>
   );
 }
 export default Private;

@@ -14,7 +14,7 @@ export default function Shop() {
   }
 
   return (
-    <body>
+    <>
       <Header />
       <div className="shopContainer">
         <div className="shopHeader">
@@ -35,6 +35,6 @@ export default function Shop() {
         </div>
       </div>
       <BottomNav />
-    </body>
+    </>
   );
 }

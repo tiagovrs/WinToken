@@ -1,20 +1,45 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useState } from "react";
-import { auth } from "../../../../firebase";
+import { auth, db } from "../../../../firebase";
+import { apiKey } from "../../../../config/api/axios";
+import { doc, setDoc } from "firebase/firestore";
+import axios from "axios";
+import { Navigate } from "react-router-dom";
 
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const signUp = (e) => {
+  const signUp = async (e) => {
     e.preventDefault();
-    createUserWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        console.log(userCredential);
+
+    await createUserWithEmailAndPassword(auth, email, password);
+
+    const walletData = await generateWallet()
+
+    const res = await setDoc(doc(db, "wallets", email), 
+    {
+      ...walletData,
+      email
+    });
+
+    localStorage.setItem('user', JSON.stringify({email: email, wallet: walletData.address}));
+
+    location.href = '/'
+  };
+
+  const generateWallet = async () => {
+    try {
+      const response = await axios.post("https://protocol-sandbox.lumx.io/v2/wallets", {}, {
+        headers: {
+          'Authorization': `Bearer ${apiKey}`
+        }
       })
-      .catch((error) => {
-        console.log(error);
-      });
+      
+      return response.data;
+    } catch (error) {
+      console.error('Erro ao buscar dados:', error);
+    }
   };
 
   return (
