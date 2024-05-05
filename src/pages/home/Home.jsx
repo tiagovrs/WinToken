@@ -84,7 +84,7 @@ function Private() {
           </div>
         </Link>
       </div>
-      <BottomNav />
+      <BottomNav /> 
     </body>
   );
 }
