@@ -147,23 +147,23 @@ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
 ##  <a name="c6"></a>💾  6. Repository
 
-### 6.1 📝 Link de demonstração
+### 6.1 📝 Demonstration Link
 
-_Coloque aqui o link para seu projeto publicado e link para vídeo de demonstração_
+_add here the demonstration link_
 
-### 6.2 📁 Estrutura de pastas
+### 6.2 📁 Files and Folders structure
 
 Among the files and folders present in the root of the project, the following are defined:
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+- <b>.vite</b>: a folder that organize templates to the react.js.
 
-- <b>document</b>: aqui estão todos os documentos do projeto, como o Web Application  Document (WAD) bem como documentos complementares, na pasta "other".
+- <b>assets-doc</b>: files to be used in the readme.
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto de aplicação web.
+- <b>src</b>: a folder that organize the back-end files.
 
-- <b>README.md</b>: arquivo que serve como guia introdutório e explicação geral sobre o projeto e a aplicação (o mesmo arquivo que você está lendo agora).
+- <b>README.md</b>: a guide to understand the purpose of the solution and its application into the real world.
 
-### 6.3 💻 Configuração para desenvolvimento e execução do código
+### 6.3 💻 Configuration for code development and execution
 
 &nbsp;&nbsp;&nbsp;&nbsp; Here are all the necessary instructions for installing all the programs, libraries, and essential tools for setting up the development environment.
 
