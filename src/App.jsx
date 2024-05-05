@@ -5,6 +5,7 @@ import Bets from "./pages/bets/Bets";
 import Shop from "./pages/shop/Shop";
 import Login from "./pages/login/Login";
 import ViewProfile from "./pages/viewProfile/ViewProfile";
+import Album from "./pages/album/Album";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/loja" element={<Shop />} />
         <Route path="/apostas" element={<Bets />} />
         <Route path="/perfil" element={<ViewProfile />} />
+        <Route path="/album" element={<Album />} />
       </Routes>
     </BrowserRouter>
   );
