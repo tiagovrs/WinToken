@@ -1,6 +1,7 @@
+/*
 *{
-  /* border: 1px solid #0f0; */
-}
+  border: 1px solid #0f0; 
+}*/
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -43,13 +44,19 @@
 }
 
 .luckTitle {
-  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 22px;
+  line-height: 24px;
 }
 
 .luckTxt {
   font-size: 14px;
   text-align: center;
   margin-bottom: 10px;
+  padding: 0px 0px 0px 5px;
 }
 
 .luckIcon {
@@ -71,9 +78,8 @@
 .qrTitleContainer, .luckTitleContainer, .qrIconContainer, .luckIconContainer{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   flex-direction: column;
-  flex: 1;
+  flex: 3;
 }
 
 .qrIconContainer, .luckIconContainer {
@@ -83,9 +89,8 @@
 .qrTxt {
   color: #fff;
   text-align: center;
-  text-align: center;
-  margin: 20px 0;
-  font-size: 20px;
+  margin: 35px 0;
+  font-size: 24px;
   line-height: 24px;
 }
 
@@ -121,6 +126,7 @@
 
 .shopAlbumIconIcon{
     font-size: 40px;
+    margin-right: 13px
 }
 
 .txtShopAlbumContainer{
