@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Header from "../components/header/Header";
 import BottomNav from "../components/bottomNav/BottomNav";
 import { faBarcode } from "@fortawesome/free-solid-svg-icons";
-import "./scan.css"
+import "./Scan.css"
 
 export default function Scan() {
   const [searchvalue, setSearchValue] = useState("");
