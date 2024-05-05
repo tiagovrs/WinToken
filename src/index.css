@@ -22,10 +22,12 @@ body {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100%;
+  margin-bottom: 45px;
+  overflow-x: hidden;
 }
 
 h1 {

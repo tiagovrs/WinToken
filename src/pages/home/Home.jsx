@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faClover,
+  faDice,
   faQrcode,
   faCartShopping,
   faImages,
@@ -12,15 +12,26 @@ import "./Home.css";
 import BottomNav from "../components/bottomNav/BottomNav";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
+import { provider } from "../../config/api/axios";
+import { ethers } from "ethers";
+import winTokenAbi, { erc20TokenAddress } from "../../contracts/WinTokenAbi";
 
 function Private() {
-  const [wtkQtd, setWtkQtd] = useState(1000);
+  const [wtkQtd, setWtkQtd] = useState(0);
+  const user = JSON.parse(localStorage.getItem('user'));
 
   const handleSignOut = () => {
     signOut(auth)
       .then(() => console.log("Sign Out"))
       .catch((error) => console.log(error));
   };
+
+  const handleGetBalance = async () => {
+    const contract = new ethers.Contract(erc20TokenAddress, winTokenAbi, provider);
+    setWtkQtd(ethers.formatEther(await contract.balanceOf(user.wallet)) * 10**18);
+  };
+
+  handleGetBalance();
 
   return (
     <body>
@@ -33,14 +44,14 @@ function Private() {
         </div>
 
         <div className="luckAndQrContainer">
-          <Link to="/apostas" className="luckContainer">
+          <Link to="/roleta" className="luckContainer">
             <div className="luckTitleContainer">
               <h2 className="luckTitle">Teste sua sorte</h2>
               <p className="luckTxt">Aposte WTKs e concorra a NFTs</p>
             </div>
 
             <div className="luckIconContainer">
-              <FontAwesomeIcon className="luckIcon" icon={faClover} />
+              <FontAwesomeIcon className="luckIcon" icon={faDice} />
             </div>
           </Link>
 
@@ -84,7 +95,7 @@ function Private() {
           </div>
         </Link>
       </div>
-      <BottomNav />
+      <BottomNav /> 
     </body>
   );
 }

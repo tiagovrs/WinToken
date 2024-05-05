@@ -1,0 +1,1 @@
+export const winNft = "0x07c737674D0d0a89a636905851D48c89308322be";
