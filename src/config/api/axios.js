@@ -1,3 +1,5 @@
+// const { ethers } = require("ethers");
+import { ethers } from "ethers";
 import axios from "axios";
 
 const lumxUrl = 'http://protocol-sandbox.lumx.io/';
@@ -16,3 +18,7 @@ const axiosInstance = axios.create({
 });
 
 export default axiosInstance;
+
+const alchemyApiKey = 'M3DQiUSqSgvNpM7oSG3useGVtkG2vhvE';
+
+export const provider = new ethers.AlchemyProvider('sepolia', alchemyApiKey);

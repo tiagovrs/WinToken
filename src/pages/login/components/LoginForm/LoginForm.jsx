@@ -19,7 +19,7 @@ function LoginForm() {
       const res = await getDoc(doc(db, "wallets", email));
       const data = res.data()
 
-      localStorage.setItem('user', JSON.stringify({email: email, wallet: data.address}));
+      localStorage.setItem('user', JSON.stringify({email: email, wallet: data.address, walletId: data.id}));
       
       location.href = '/'
     })
