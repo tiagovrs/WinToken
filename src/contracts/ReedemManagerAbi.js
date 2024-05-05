@@ -1,0 +1,1 @@
+export const reedemManagerAddress = "0x8f03423F54cFFae4F8291f82C6E8356BD0239944"

@@ -11,15 +11,26 @@ import Header from "../components/header/Header";
 import "./Home.css";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
+import { provider } from "../../config/api/axios";
+import { ethers } from "ethers";
+import winTokenAbi, { erc20TokenAddress } from "../../contracts/WinTokenAbi";
 
 function Private() {
-  const [wtkQtd, setWtkQtd] = useState(1000);
+  const [wtkQtd, setWtkQtd] = useState(0);
+  const user = JSON.parse(localStorage.getItem('user'));
 
   const handleSignOut = () => {
     signOut(auth)
       .then(() => console.log("Sign Out"))
       .catch((error) => console.log(error));
   };
+
+  const handleGetBalance = async () => {
+    const contract = new ethers.Contract(erc20TokenAddress, winTokenAbi, provider);
+    setWtkQtd(ethers.formatEther(await contract.balanceOf(user.wallet)) * 10**18);
+  };
+
+  handleGetBalance();
 
   return (
     <>
