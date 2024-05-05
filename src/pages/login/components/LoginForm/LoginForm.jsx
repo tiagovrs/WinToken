@@ -2,22 +2,31 @@
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { useState } from "react";
-import {auth} from '../../../../firebase'
-
+import {auth, db} from '../../../../firebase'
 import "./LoginForm.css";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import { getDoc, doc } from "firebase/firestore";
+import { Navigate } from "react-router-dom";
+
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const signIn = (e) => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, password)
-    .then((userCredencial)=>{
-        console.log(userCredencial);
+    .then(async (userCredencial)=>{
+      const res = await getDoc(doc(db, "wallets", email));
+      const data = res.data()
+
+      localStorage.setItem('user', JSON.stringify({email: email, wallet: data.address}));
+      
+      location.href = '/'
     })
     .catch((error) => {
-        console.log(error);})
-    }
+        console.log(error);
+    })
+  }
+
   return (
     <div className="containerLogin">
       <div className="title">
@@ -50,4 +59,5 @@ function LoginForm() {
     </div>
   );
 }
+
 export default LoginForm;

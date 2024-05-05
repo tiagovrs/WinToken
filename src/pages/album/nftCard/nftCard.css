@@ -1,0 +1,27 @@
+.nftCardFrame{
+    background-color: #d9d9d9;
+    width: 120px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nftCardFrame img{
+    width: 100px;
+}
+
+.cardTitle{
+    font-size: 18px;
+    color: #262626;
+    line-height: 15px;
+}
+
+.cardTxt{
+    font-size: 14px;
+    color: #262626;
+    line-height: 15px;
+}
