@@ -1,6 +1,6 @@
 .betPageContainer {
   border-radius: 10px;
-  background-color: #a25ca4;
+  background-color: #262626 ;
   margin-top: 14px;
   height: 427px;
   width: 80%;
@@ -11,13 +11,14 @@
 .betPageContainer h2{
   text-decoration: none;
   padding: 10px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .containerInFocus{
   background-color: #5B415B;
   height: 340px;
   border-radius: 10px;
   height: 290px;
+  width: ;
 }
 .organize{
   display: flex;

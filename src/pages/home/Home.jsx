@@ -23,7 +23,7 @@ function Private() {
   };
 
   return (
-    <>
+    <body>
       <Header />
 
       <div className="homeContainer">
@@ -84,7 +84,7 @@ function Private() {
           </div>
         </Link>
       </div>
-      <BottomNav /> 
+      <BottomNav />
     </body>
   );
 }
