@@ -19,26 +19,8 @@
     color: #a25ca4;
 }
 
-.hudContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 80px;
-}
-
 .bellIcon {
     font-size: 28px;
-}
-
-.hasNotification {
-    bottom: 19px;
-    left: 15px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: #f00;
-    position: absolute;
 }
 
 .profileBtn{
