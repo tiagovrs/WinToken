@@ -8,6 +8,7 @@ import "./Scan.css";
 import { reedemManagerAddress } from "../../contracts/ReedemManagerAbi";
 import axios from "axios";
 import { apiKey } from "../../config/api/axios";
+import AlertDialog from "./components/AlertDialog";
 
 export default function Scan() {
   const [searchvalue, setSearchValue] = useState("");
@@ -92,7 +93,7 @@ export default function Scan() {
       <div className="camScrennContainer">
         {scanResult ? (
           <div className="camContainer">
-            <p>Parábens! Seus tokens foram resgatados com sucesso e em breve estaram disponíveis na sua conta!</p>
+            <AlertDialog></AlertDialog>
           </div>
         ) : (
           <div className="camContainer " id="reader"></div>
