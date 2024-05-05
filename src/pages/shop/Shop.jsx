@@ -18,7 +18,7 @@ export default function Shop() {
       <Header />
       <div className="shopContainer">
         <div className="shopHeader">
-          <h1 className="shopTitle">Loja de NFTs</h1>
+          <h2 className="shopTitle">Loja de NFTs</h2>
           <div className="searchBar">
             <input
               type="text"

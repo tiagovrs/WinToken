@@ -24,7 +24,7 @@ const SignUp = () => {
       email
     });
 
-    localStorage.setItem('user', JSON.stringify({email: email, wallet: walletData.address}));
+    localStorage.setItem('user', JSON.stringify({email: email, wallet: walletData.address, walletId: walletData.id}));
 
     location.href = '/'
   };

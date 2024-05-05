@@ -8,6 +8,7 @@ import "./Scan.css";
 import { reedemManagerAddress } from "../../contracts/ReedemManagerAbi";
 import axios from "axios";
 import { apiKey } from "../../config/api/axios";
+import AlertDialog from "./components/AlertDialog";
 
 export default function Scan() {
   const [searchvalue, setSearchValue] = useState("");
@@ -37,7 +38,6 @@ export default function Scan() {
           'Authorization': `Bearer ${apiKey}`
         }
       })
-      
       return response.data;
     } catch (error) {
       console.error('Erro ao buscar dados:', error);
@@ -76,8 +76,8 @@ export default function Scan() {
     try {
       const result = searchvalue.split('-');
       reedemTokens({
-        index: result[1],
-        hashKey: result[0]
+        index: parseInt(result[1]),
+        hashKey: parseInt(result[0])
       })
       setScanResult(result);
     } catch(err) {
@@ -92,7 +92,7 @@ export default function Scan() {
       <div className="camScrennContainer">
         {scanResult ? (
           <div className="camContainer">
-            <p>Parábens! Seus tokens foram resgatados com sucesso e em breve estaram disponíveis na sua conta!</p>
+            <AlertDialog></AlertDialog>
           </div>
         ) : (
           <div className="camContainer " id="reader"></div>

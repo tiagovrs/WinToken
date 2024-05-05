@@ -193,6 +193,12 @@ export default function Bets() {
           </button>
         </div>
 
+        <div className="pai">
+          <div className="header"></div>
+          <div className="corpo"></div>
+          <div className="BottomNavigation"></div>
+        </div>
+
         {confirmSpin && (
           <div className="confirmationModal">
             <p>Deseja realmente girar a roleta?</p>
