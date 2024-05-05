@@ -10,8 +10,8 @@ export default function Product(props) {
           className="productImg"
         />
         <h2 className="productName">{props.name}</h2>
-       
       </div>
+      
       <div className='PriceContainer'>
        <p className="ProductPrice">{props.price} WTKs</p>
       </div>
