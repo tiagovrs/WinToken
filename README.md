@@ -147,11 +147,11 @@ Technologies used: React, Lumx Protocol, Solidity, IPFS, HardHat
 
 ##  <a name="c6"></a>💾  6. Repository
 
-### 6.1 📝 Link de demonstração
+### 6.1 📝 Demonstration Link
 
-_Coloque aqui o link para seu projeto publicado e link para vídeo de demonstração_
+_add here the demonstration link_
 
-### 6.2 📁 Estrutura de pastas
+### 6.2 📁 Files and Folders structure
 
 Among the files and folders present in the root of the project, the following are defined:
 
@@ -164,7 +164,8 @@ Among the files and folders present in the root of the project, the following ar
 - <b>package.json:</b> Metadata file for the project, containing configurations such as project name, version, dependencies, scripts, etc.
 - <b>vite.config.js:</b> Configuration file for Vite.js, allowing customization of the Vite development server and build process.
 
-### 6.3 💻 Configuração para desenvolvimento e execução do código
+
+### 6.3 💻 Configuration for code development and execution
 
 &nbsp;&nbsp;&nbsp;&nbsp; Here are all the necessary instructions for installing all the programs, libraries, and essential tools for setting up the development environment.
 
